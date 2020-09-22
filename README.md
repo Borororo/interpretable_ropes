@@ -6,7 +6,7 @@ Code is based on hugging face transformer v2.3.0, to install all dependencies, i
 
 ```
 pip install . 
-pip install allennlp
+pip install allennlp==0.9.0
 pip install -r requirements.txt 
 ```
 
@@ -14,7 +14,7 @@ If you have problems about installing above package, especially the first line. 
 
 After that , replace all the files in the **examples** and **src/transformers/data/** with this repositories.  Then continue installation. 
 
-Be careful with **Pytorch** version, make sure it is compatible with both allennlp and transformers.
+Be careful with **Pytorch** version, make sure it is compatible with both allennlp and transformers. (suggest v1.5.1)
 
 ## Data & Model
 
